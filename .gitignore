@@ -1,0 +1,36 @@
+# Binary triggers (Compiled files)
+# Executables matching your main module package names are generated locally
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and build artifacts
+*.test
+*.out
+__debug_bin
+
+# Common build or output directories
+bin/
+dist/
+out/
+
+# Go module verification and vendor files
+# Note: Keep vendor/ tracked only if you strictly use 'go mod vendor' for offline builds.
+# vendor/
+
+# Go workspaces
+# go.work configuration files must not be committed to shared repositories
+go.work
+go.work.sum
+
+# Crash dumps
+*.prof
+
+# Local environment variables and application secrets
+.env
+.env.local
+
+#Local Conf
+conf/*
